@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Delicious Bites</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="hero">
+        <nav>
+            <h1 class="logo">Delicious Bites</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-text">
+            <h2>Welcome to Delicious Bites</h2>
+            <p>Where every meal is a masterpiece</p>
+        </div>
+    </header>
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <p>we also have other african dishs like yam porridge, beans and plaintain, fried rice, e.t.c.</p>
+        <div class="menu-grid">
+            <div class="menu-item">
+              <img src="pics/deli5.png">
+              <h3>Jollof Rice</h3>  
+              <p>Fresh tomatoes, carrots and green beans</p>
+            </div>
+            <div class="menu-item">
+                <img src="pics/deli6.png">
+                <h3>Egusi Soup</h3>
+                <p>Bitterleaf vegetables</p>
+            </div>
+            <div class="menu-item">
+                <img src="pics/deli1.jpeg">
+                <h3>Beef Burger</h3>
+                <p>Grilled patty, cheese, lettuce, tomato</p>
+            </div>
+            <div class="menu-item">
+                <img src="pics/deli2.jpeg">
+                <h3>Garden Salad</h3>
+                <p>Crisp greens, cucumber, vinaigrette</p>
+            </div>
+        </div>
+    </section>
+    <section id="order" class="order-section">
+        <h2>Place an Order</h2>
+        <form action="mailto:obiniebenezer20@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Full Name</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" id="phone" name="phone" required><br><br>
+            <label for="address">Delivery Address</label><br>
+            <textarea id="address" name="address" rows="3" required></textarea><br><br>
+            <label for="order">Select Your Order</label><br>
+            <select id="order" name="order" required>
+                <option value="">--Choose a meal--</option>
+                <option value="Margherita Pizza">Margherita Pizza</option>
+                <option value="Beef Burger">Beef Burger</option>
+                <option value="Garden Salad">Garden Salad</option>
+            </select><br><br>
+            <input type="submit" value="Place Order" class="submit-btn">
+        </form>
+    </section>
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>Delicious Bites has been serving mouth-watering meals since 2005. We blend passion and flavor in every dish to bring you an unforgettable dining experience.</p>
+        <img src="pics/deli3.jpeg">
+    </section>
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>60 Udemeuze Street, Abakaliki, Ebonyi State</p>
+        <p>📞 +234 813 423 4213</p>
+        <p>📧 info@deliciousbites.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Delicious Bites. All rights reserved.</p>
+    </footer>
+</body>
+</html>
